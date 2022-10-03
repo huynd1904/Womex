@@ -43,7 +43,7 @@ $(document).ready(function () {
       900: {
         items: 3,
       },
-      1080: {
+      1200: {
         items: 4,
 
         loop: true,
