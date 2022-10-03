@@ -647,6 +647,9 @@ ul.sub-menu-mobile a {
 .facebook-comment__header .sort {
   gap: 10px;
 }
+.sort-group svg {
+  width: 120px;
+}
 .facebook-comments__item,
 .comment-reply {
   display: flex;
@@ -666,12 +669,16 @@ ul.sub-menu-mobile a {
   display: flex;
   align-items: center;
   gap: 5px;
+  color: #bf1e2e;
 }
 .feeback-star img {
   width: 60px;
 }
+.shop-name {
+  color: #bf1e2e;
+}
 .days-user {
-  color: rgb(48, 48, 48);
+  color: #6d6e70;
 }
 .avatar-shop {
   width: 70px;
@@ -682,6 +689,21 @@ ul.sub-menu-mobile a {
   align-items: center;
   color: rgb(67, 102, 176);
   margin-bottom: 20px;
+}
+img.shadow-1-strong {
+  margin-left: 3px;
+}
+.facebook-comments__item .username {
+  color: #1658b9;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.facebook-comments__item .shop-name {
+  margin-bottom: 6px;
+}
+.facebook-comments__item .content-details,
+.facebook-comments__item .reply-details {
+  margin-bottom: 10px;
 }
 a.comments-readmore {
   color: var(--primary);
@@ -948,6 +970,7 @@ a.comments-readmore {
   .sort-by {
     display: none;
   }
+
   .header__content .row {
     grid-template-columns: 1fr;
   }
