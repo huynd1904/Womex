@@ -305,7 +305,6 @@ button.owl-dot {
   font-weight: bold;
 }
 .menu-item:hover {
-  transform: translateY(3px);
   transition: linear 0.1s;
 }
 /* submenu  */
