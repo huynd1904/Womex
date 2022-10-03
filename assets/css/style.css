@@ -435,6 +435,7 @@ button.owl-dot {
   margin: 0;
   padding: 50px;
   padding-top: 50px;
+  padding-left: 25px;
   background-color: #ffffff;
   color: #000;
   -webkit-font-smoothing: antialiased;
